@@ -1,0 +1,149 @@
+
+.container{
+    background-image: url(assets/banner-bk.jpg);
+    height: 640px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgLogo{
+ height: 80px;
+}
+.tituloh2{
+    color: white;
+   padding: 40px;
+   font-size: 70px;
+}
+.parrafo{
+    color: white;
+    
+}
+.button{
+    color: #192440;
+    background:#00ffad;
+    margin-bottom: 10px;
+    border-radius: 2rem;
+    font-size: 18px;
+    padding: 10px;
+    width: 9rem;
+    
+}
+.primerosIconos{
+    display: flex;
+    text-align:left;
+    justify-content: center;
+}
+.dostitulo{
+    justify-content: center;
+    display: flex;
+    height: 150px;
+    padding: 50px;
+    font-size: 50px;
+}
+.imagFuturo{
+    display: flex;
+    margin-left: 50%;
+}
+.estado{
+    display: flex;
+}
+.contenedores{
+    display: flex;
+    justify-content: space-evenly;
+}
+.look{
+    background:linear-gradient(172deg,white 50%,#00ffad 50%);
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.iconos{
+    display: flex;
+    background-color: #c0c0c0;
+    justify-content: center;
+}
+.parteFinal{
+    background-image: url(assets/contact-bk.jpg);
+    height: 300px;
+    color: #fff;
+}
+.registro{
+   display: flex;
+    min-height: 75vh;
+    width: 1350px;
+    font-size: 10px;
+    justify-content: right;
+    
+}
+.dos{
+background-color: #192440;
+color:white ;
+text-align: center;
+width: 250px;
+padding: 20px;
+}
+.bottonDos{
+    color: #192440;
+    background:#00ffad;
+    margin-bottom: 10px;
+    border-radius: 2rem;
+    font-size: 18px;
+    padding: 5px;
+    width: 9rem;
+}
+.botton3{
+    color: #192440;
+    background:white;
+    margin-bottom: 10px;
+    border-radius: 2rem;
+    font-size: 18px;
+    padding: 5px;
+    width: 9rem;
+}
+
+.parteFinal {
+display: flex;
+justify-content: space-around;
+}
+.bottonUno{
+    color:white;
+    background-color:#192440;
+    margin-bottom: 10px;
+    border-radius: 2rem;
+    font-size: 18px;
+    padding: 5px;
+    width: 9rem;
+}
+.bottonPrincipal{
+    color:white;
+    background-color:#192440;
+    margin-bottom: 10px;
+    border-radius: 2rem;
+    font-size: 18px;
+    padding: 5px;
+    width: 9rem;
+}
+.tituloMedio{
+    justify-content: center;
+    display: flex;
+    height: 150px;
+    padding: 25px;
+    font-size: 50px;
+}
+.submitEnviar{
+    color: #192440;
+    background:#00ffad;
+    margin-bottom: 10px;
+    border-radius: 10rem;
+    font-size: 20px;
+    padding: 5px;
+    width: 14rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:480px) {
+    body {
+        background: violet;
+    }
+}
